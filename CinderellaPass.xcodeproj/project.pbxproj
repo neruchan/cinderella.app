@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B911CB951BC264E0003FF997 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B911CB941BC264E0003FF997 /* main.m */; };
+		B911CB981BC264E0003FF997 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B911CB971BC264E0003FF997 /* AppDelegate.m */; };
+		B911CB9B1BC264E0003FF997 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B911CB9A1BC264E0003FF997 /* ViewController.m */; };
+		B911CB9E1BC264E0003FF997 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B911CB9C1BC264E0003FF997 /* Main.storyboard */; };
+		B911CBA01BC264E0003FF997 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B911CB9F1BC264E0003FF997 /* Assets.xcassets */; };
+		B911CBA31BC264E0003FF997 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B911CBA11BC264E0003FF997 /* LaunchScreen.storyboard */; };
+		B911CBAE1BC264E0003FF997 /* CinderellaPassTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B911CBAD1BC264E0003FF997 /* CinderellaPassTests.m */; };
+		B911CBB91BC264E0003FF997 /* CinderellaPassUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B911CBB81BC264E0003FF997 /* CinderellaPassUITests.m */; };
+		B911CBC81BC27343003FF997 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B911CBC71BC27343003FF997 /* ProgressHUD.m */; settings = {ASSET_TAGS = (); }; };
+		B957593B1BD75A5E0038D8A2 /* DAPageIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = B95759361BD75A5E0038D8A2 /* DAPageIndicatorView.m */; settings = {ASSET_TAGS = (); }; };
+		B957593C1BD75A5E0038D8A2 /* DAPagesContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = B95759381BD75A5E0038D8A2 /* DAPagesContainer.m */; settings = {ASSET_TAGS = (); }; };
+		B957593D1BD75A5E0038D8A2 /* DAPagesContainerTopBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B957593A1BD75A5E0038D8A2 /* DAPagesContainerTopBar.m */; settings = {ASSET_TAGS = (); }; };
+		B95759401BD75D1B0038D8A2 /* MultiSlideParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B957593F1BD75D1B0038D8A2 /* MultiSlideParentViewController.m */; settings = {ASSET_TAGS = (); }; };
+		B97C1E291BE1E23900E7665E /* footer1.png in Resources */ = {isa = PBXBuildFile; fileRef = B97C1E241BE1E23900E7665E /* footer1.png */; settings = {ASSET_TAGS = (); }; };
+		B97C1E2A1BE1E23900E7665E /* footer2.png in Resources */ = {isa = PBXBuildFile; fileRef = B97C1E251BE1E23900E7665E /* footer2.png */; settings = {ASSET_TAGS = (); }; };
+		B97C1E2B1BE1E23900E7665E /* footer3.png in Resources */ = {isa = PBXBuildFile; fileRef = B97C1E261BE1E23900E7665E /* footer3.png */; settings = {ASSET_TAGS = (); }; };
+		B97C1E2C1BE1E23900E7665E /* footer4.png in Resources */ = {isa = PBXBuildFile; fileRef = B97C1E271BE1E23900E7665E /* footer4.png */; settings = {ASSET_TAGS = (); }; };
+		B97C1E2D1BE1E23900E7665E /* footer5.png in Resources */ = {isa = PBXBuildFile; fileRef = B97C1E281BE1E23900E7665E /* footer5.png */; settings = {ASSET_TAGS = (); }; };
+		B99BD9E21BD785A80044046F /* crown.png in Resources */ = {isa = PBXBuildFile; fileRef = B99BD9E11BD785A80044046F /* crown.png */; settings = {ASSET_TAGS = (); }; };
+		B99BD9E61BD7889F0044046F /* crownbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = B99BD9E51BD7889F0044046F /* crownbutton.png */; settings = {ASSET_TAGS = (); }; };
+		B99BD9EA1BD79E140044046F /* top.png in Resources */ = {isa = PBXBuildFile; fileRef = B99BD9E91BD79E140044046F /* top.png */; settings = {ASSET_TAGS = (); }; };
+		B9BDE34A1BDA361800DC79E4 /* IMG_0158.PNG in Resources */ = {isa = PBXBuildFile; fileRef = B9BDE3491BDA361800DC79E4 /* IMG_0158.PNG */; settings = {ASSET_TAGS = (); }; };
+		B9F12B2C1BE1EBC000A12C93 /* ContentWithFooterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F12B2B1BE1EBC000A12C93 /* ContentWithFooterViewController.m */; settings = {ASSET_TAGS = (); }; };
+		B9F12B351BE1EC9100A12C93 /* FooterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F12B331BE1EC9100A12C93 /* FooterViewController.m */; settings = {ASSET_TAGS = (); }; };
+		B9F12B361BE1EC9100A12C93 /* FooterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9F12B341BE1EC9100A12C93 /* FooterViewController.xib */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B911CBAA1BC264E0003FF997 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B911CB881BC264E0003FF997 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B911CB8F1BC264E0003FF997;
+			remoteInfo = CinderellaPass;
+		};
+		B911CBB51BC264E0003FF997 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B911CB881BC264E0003FF997 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B911CB8F1BC264E0003FF997;
+			remoteInfo = CinderellaPass;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B911CB901BC264E0003FF997 /* CinderellaPass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CinderellaPass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B911CB941BC264E0003FF997 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B911CB961BC264E0003FF997 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B911CB971BC264E0003FF997 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B911CB991BC264E0003FF997 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B911CB9A1BC264E0003FF997 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B911CB9D1BC264E0003FF997 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B911CB9F1BC264E0003FF997 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B911CBA21BC264E0003FF997 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B911CBA41BC264E0003FF997 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B911CBA91BC264E0003FF997 /* CinderellaPassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CinderellaPassTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B911CBAD1BC264E0003FF997 /* CinderellaPassTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CinderellaPassTests.m; sourceTree = "<group>"; };
+		B911CBAF1BC264E0003FF997 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B911CBB41BC264E0003FF997 /* CinderellaPassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CinderellaPassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B911CBB81BC264E0003FF997 /* CinderellaPassUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CinderellaPassUITests.m; sourceTree = "<group>"; };
+		B911CBBA1BC264E0003FF997 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B911CBC61BC27343003FF997 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
+		B911CBC71BC27343003FF997 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
+		B95759351BD75A5E0038D8A2 /* DAPageIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAPageIndicatorView.h; sourceTree = "<group>"; };
+		B95759361BD75A5E0038D8A2 /* DAPageIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAPageIndicatorView.m; sourceTree = "<group>"; };
+		B95759371BD75A5E0038D8A2 /* DAPagesContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAPagesContainer.h; sourceTree = "<group>"; };
+		B95759381BD75A5E0038D8A2 /* DAPagesContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAPagesContainer.m; sourceTree = "<group>"; };
+		B95759391BD75A5E0038D8A2 /* DAPagesContainerTopBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAPagesContainerTopBar.h; sourceTree = "<group>"; };
+		B957593A1BD75A5E0038D8A2 /* DAPagesContainerTopBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAPagesContainerTopBar.m; sourceTree = "<group>"; };
+		B957593E1BD75D1B0038D8A2 /* MultiSlideParentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiSlideParentViewController.h; sourceTree = "<group>"; };
+		B957593F1BD75D1B0038D8A2 /* MultiSlideParentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiSlideParentViewController.m; sourceTree = "<group>"; };
+		B97C1E241BE1E23900E7665E /* footer1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = footer1.png; sourceTree = "<group>"; };
+		B97C1E251BE1E23900E7665E /* footer2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = footer2.png; sourceTree = "<group>"; };
+		B97C1E261BE1E23900E7665E /* footer3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = footer3.png; sourceTree = "<group>"; };
+		B97C1E271BE1E23900E7665E /* footer4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = footer4.png; sourceTree = "<group>"; };
+		B97C1E281BE1E23900E7665E /* footer5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = footer5.png; sourceTree = "<group>"; };
+		B99BD9E11BD785A80044046F /* crown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crown.png; sourceTree = "<group>"; };
+		B99BD9E51BD7889F0044046F /* crownbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crownbutton.png; sourceTree = "<group>"; };
+		B99BD9E91BD79E140044046F /* top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = top.png; sourceTree = "<group>"; };
+		B9BDE3491BDA361800DC79E4 /* IMG_0158.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_0158.PNG; sourceTree = "<group>"; };
+		B9F12B2A1BE1EBC000A12C93 /* ContentWithFooterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentWithFooterViewController.h; sourceTree = "<group>"; };
+		B9F12B2B1BE1EBC000A12C93 /* ContentWithFooterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentWithFooterViewController.m; sourceTree = "<group>"; };
+		B9F12B321BE1EC9100A12C93 /* FooterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FooterViewController.h; sourceTree = "<group>"; };
+		B9F12B331BE1EC9100A12C93 /* FooterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FooterViewController.m; sourceTree = "<group>"; };
+		B9F12B341BE1EC9100A12C93 /* FooterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FooterViewController.xib; sourceTree = "<group>"; };
+		B9F12B371BE1F5B900A12C93 /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B911CB8D1BC264E0003FF997 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B911CBA61BC264E0003FF997 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B911CBB11BC264E0003FF997 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B911CB871BC264E0003FF997 = {
+			isa = PBXGroup;
+			children = (
+				B911CB921BC264E0003FF997 /* CinderellaPass */,
+				B911CBAC1BC264E0003FF997 /* CinderellaPassTests */,
+				B911CBB71BC264E0003FF997 /* CinderellaPassUITests */,
+				B911CB911BC264E0003FF997 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B911CB911BC264E0003FF997 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B911CB901BC264E0003FF997 /* CinderellaPass.app */,
+				B911CBA91BC264E0003FF997 /* CinderellaPassTests.xctest */,
+				B911CBB41BC264E0003FF997 /* CinderellaPassUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B911CB921BC264E0003FF997 /* CinderellaPass */ = {
+			isa = PBXGroup;
+			children = (
+				B97C1E231BE1E23000E7665E /* icons */,
+				B99BD9E51BD7889F0044046F /* crownbutton.png */,
+				B9BDE3491BDA361800DC79E4 /* IMG_0158.PNG */,
+				B99BD9E11BD785A80044046F /* crown.png */,
+				B99BD9E91BD79E140044046F /* top.png */,
+				B95759341BD75A5D0038D8A2 /* DAPagesContainer */,
+				B9F12B2A1BE1EBC000A12C93 /* ContentWithFooterViewController.h */,
+				B9F12B2B1BE1EBC000A12C93 /* ContentWithFooterViewController.m */,
+				B911CB961BC264E0003FF997 /* AppDelegate.h */,
+				B911CB971BC264E0003FF997 /* AppDelegate.m */,
+				B911CBC61BC27343003FF997 /* ProgressHUD.h */,
+				B911CBC71BC27343003FF997 /* ProgressHUD.m */,
+				B957593E1BD75D1B0038D8A2 /* MultiSlideParentViewController.h */,
+				B957593F1BD75D1B0038D8A2 /* MultiSlideParentViewController.m */,
+				B911CB991BC264E0003FF997 /* ViewController.h */,
+				B911CB9A1BC264E0003FF997 /* ViewController.m */,
+				B911CB9C1BC264E0003FF997 /* Main.storyboard */,
+				B911CB9F1BC264E0003FF997 /* Assets.xcassets */,
+				B911CBA11BC264E0003FF997 /* LaunchScreen.storyboard */,
+				B911CBA41BC264E0003FF997 /* Info.plist */,
+				B911CB931BC264E0003FF997 /* Supporting Files */,
+				B9F12B321BE1EC9100A12C93 /* FooterViewController.h */,
+				B9F12B331BE1EC9100A12C93 /* FooterViewController.m */,
+				B9F12B341BE1EC9100A12C93 /* FooterViewController.xib */,
+			);
+			path = CinderellaPass;
+			sourceTree = "<group>";
+		};
+		B911CB931BC264E0003FF997 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B911CB941BC264E0003FF997 /* main.m */,
+				B9F12B371BE1F5B900A12C93 /* Constant.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B911CBAC1BC264E0003FF997 /* CinderellaPassTests */ = {
+			isa = PBXGroup;
+			children = (
+				B911CBAD1BC264E0003FF997 /* CinderellaPassTests.m */,
+				B911CBAF1BC264E0003FF997 /* Info.plist */,
+			);
+			path = CinderellaPassTests;
+			sourceTree = "<group>";
+		};
+		B911CBB71BC264E0003FF997 /* CinderellaPassUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B911CBB81BC264E0003FF997 /* CinderellaPassUITests.m */,
+				B911CBBA1BC264E0003FF997 /* Info.plist */,
+			);
+			path = CinderellaPassUITests;
+			sourceTree = "<group>";
+		};
+		B95759341BD75A5D0038D8A2 /* DAPagesContainer */ = {
+			isa = PBXGroup;
+			children = (
+				B95759351BD75A5E0038D8A2 /* DAPageIndicatorView.h */,
+				B95759361BD75A5E0038D8A2 /* DAPageIndicatorView.m */,
+				B95759371BD75A5E0038D8A2 /* DAPagesContainer.h */,
+				B95759381BD75A5E0038D8A2 /* DAPagesContainer.m */,
+				B95759391BD75A5E0038D8A2 /* DAPagesContainerTopBar.h */,
+				B957593A1BD75A5E0038D8A2 /* DAPagesContainerTopBar.m */,
+			);
+			path = DAPagesContainer;
+			sourceTree = "<group>";
+		};
+		B97C1E231BE1E23000E7665E /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				B97C1E241BE1E23900E7665E /* footer1.png */,
+				B97C1E251BE1E23900E7665E /* footer2.png */,
+				B97C1E261BE1E23900E7665E /* footer3.png */,
+				B97C1E271BE1E23900E7665E /* footer4.png */,
+				B97C1E281BE1E23900E7665E /* footer5.png */,
+			);
+			name = icons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B911CB8F1BC264E0003FF997 /* CinderellaPass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B911CBBD1BC264E0003FF997 /* Build configuration list for PBXNativeTarget "CinderellaPass" */;
+			buildPhases = (
+				B911CB8C1BC264E0003FF997 /* Sources */,
+				B911CB8D1BC264E0003FF997 /* Frameworks */,
+				B911CB8E1BC264E0003FF997 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CinderellaPass;
+			productName = CinderellaPass;
+			productReference = B911CB901BC264E0003FF997 /* CinderellaPass.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B911CBA81BC264E0003FF997 /* CinderellaPassTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B911CBC01BC264E0003FF997 /* Build configuration list for PBXNativeTarget "CinderellaPassTests" */;
+			buildPhases = (
+				B911CBA51BC264E0003FF997 /* Sources */,
+				B911CBA61BC264E0003FF997 /* Frameworks */,
+				B911CBA71BC264E0003FF997 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B911CBAB1BC264E0003FF997 /* PBXTargetDependency */,
+			);
+			name = CinderellaPassTests;
+			productName = CinderellaPassTests;
+			productReference = B911CBA91BC264E0003FF997 /* CinderellaPassTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B911CBB31BC264E0003FF997 /* CinderellaPassUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B911CBC31BC264E0003FF997 /* Build configuration list for PBXNativeTarget "CinderellaPassUITests" */;
+			buildPhases = (
+				B911CBB01BC264E0003FF997 /* Sources */,
+				B911CBB11BC264E0003FF997 /* Frameworks */,
+				B911CBB21BC264E0003FF997 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B911CBB61BC264E0003FF997 /* PBXTargetDependency */,
+			);
+			name = CinderellaPassUITests;
+			productName = CinderellaPassUITests;
+			productReference = B911CBB41BC264E0003FF997 /* CinderellaPassUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B911CB881BC264E0003FF997 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Starty International";
+				TargetAttributes = {
+					B911CB8F1BC264E0003FF997 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = UYVT4CETXK;
+					};
+					B911CBA81BC264E0003FF997 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = B911CB8F1BC264E0003FF997;
+					};
+					B911CBB31BC264E0003FF997 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = B911CB8F1BC264E0003FF997;
+					};
+				};
+			};
+			buildConfigurationList = B911CB8B1BC264E0003FF997 /* Build configuration list for PBXProject "CinderellaPass" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B911CB871BC264E0003FF997;
+			productRefGroup = B911CB911BC264E0003FF997 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B911CB8F1BC264E0003FF997 /* CinderellaPass */,
+				B911CBA81BC264E0003FF997 /* CinderellaPassTests */,
+				B911CBB31BC264E0003FF997 /* CinderellaPassUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B911CB8E1BC264E0003FF997 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B97C1E2B1BE1E23900E7665E /* footer3.png in Resources */,
+				B99BD9E21BD785A80044046F /* crown.png in Resources */,
+				B97C1E2D1BE1E23900E7665E /* footer5.png in Resources */,
+				B9F12B361BE1EC9100A12C93 /* FooterViewController.xib in Resources */,
+				B911CBA31BC264E0003FF997 /* LaunchScreen.storyboard in Resources */,
+				B97C1E2A1BE1E23900E7665E /* footer2.png in Resources */,
+				B99BD9E61BD7889F0044046F /* crownbutton.png in Resources */,
+				B9BDE34A1BDA361800DC79E4 /* IMG_0158.PNG in Resources */,
+				B99BD9EA1BD79E140044046F /* top.png in Resources */,
+				B97C1E2C1BE1E23900E7665E /* footer4.png in Resources */,
+				B911CBA01BC264E0003FF997 /* Assets.xcassets in Resources */,
+				B97C1E291BE1E23900E7665E /* footer1.png in Resources */,
+				B911CB9E1BC264E0003FF997 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B911CBA71BC264E0003FF997 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B911CBB21BC264E0003FF997 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B911CB8C1BC264E0003FF997 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B957593B1BD75A5E0038D8A2 /* DAPageIndicatorView.m in Sources */,
+				B911CB9B1BC264E0003FF997 /* ViewController.m in Sources */,
+				B911CB981BC264E0003FF997 /* AppDelegate.m in Sources */,
+				B9F12B351BE1EC9100A12C93 /* FooterViewController.m in Sources */,
+				B957593D1BD75A5E0038D8A2 /* DAPagesContainerTopBar.m in Sources */,
+				B957593C1BD75A5E0038D8A2 /* DAPagesContainer.m in Sources */,
+				B911CBC81BC27343003FF997 /* ProgressHUD.m in Sources */,
+				B911CB951BC264E0003FF997 /* main.m in Sources */,
+				B95759401BD75D1B0038D8A2 /* MultiSlideParentViewController.m in Sources */,
+				B9F12B2C1BE1EBC000A12C93 /* ContentWithFooterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B911CBA51BC264E0003FF997 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B911CBAE1BC264E0003FF997 /* CinderellaPassTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B911CBB01BC264E0003FF997 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B911CBB91BC264E0003FF997 /* CinderellaPassUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B911CBAB1BC264E0003FF997 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B911CB8F1BC264E0003FF997 /* CinderellaPass */;
+			targetProxy = B911CBAA1BC264E0003FF997 /* PBXContainerItemProxy */;
+		};
+		B911CBB61BC264E0003FF997 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B911CB8F1BC264E0003FF997 /* CinderellaPass */;
+			targetProxy = B911CBB51BC264E0003FF997 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B911CB9C1BC264E0003FF997 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B911CB9D1BC264E0003FF997 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B911CBA11BC264E0003FF997 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B911CBA21BC264E0003FF997 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B911CBBB1BC264E0003FF997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: yz-apple@ratia.co.jp (27VKZ2L92X)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: yz-apple@ratia.co.jp (27VKZ2L92X)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B911CBBC1BC264E0003FF997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: yz-apple@ratia.co.jp (27VKZ2L92X)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: yz-apple@ratia.co.jp (27VKZ2L92X)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B911CBBE1BC264E0003FF997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: hasegawa makoto (5RYFU2F63T)";
+				INFOPLIST_FILE = CinderellaPass/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.starty.cin-pass";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "10fd1796-3018-4bf8-bed8-ab7fe4d62311";
+			};
+			name = Debug;
+		};
+		B911CBBF1BC264E0003FF997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: hasegawa makoto (5RYFU2F63T)";
+				INFOPLIST_FILE = CinderellaPass/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.starty.cin-pass";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "10fd1796-3018-4bf8-bed8-ab7fe4d62311";
+			};
+			name = Release;
+		};
+		B911CBC11BC264E0003FF997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CinderellaPassTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.starty.CinderellaPassTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CinderellaPass.app/CinderellaPass";
+			};
+			name = Debug;
+		};
+		B911CBC21BC264E0003FF997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CinderellaPassTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.starty.CinderellaPassTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CinderellaPass.app/CinderellaPass";
+			};
+			name = Release;
+		};
+		B911CBC41BC264E0003FF997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CinderellaPassUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.starty.CinderellaPassUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CinderellaPass;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B911CBC51BC264E0003FF997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CinderellaPassUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.starty.CinderellaPassUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CinderellaPass;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B911CB8B1BC264E0003FF997 /* Build configuration list for PBXProject "CinderellaPass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B911CBBB1BC264E0003FF997 /* Debug */,
+				B911CBBC1BC264E0003FF997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B911CBBD1BC264E0003FF997 /* Build configuration list for PBXNativeTarget "CinderellaPass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B911CBBE1BC264E0003FF997 /* Debug */,
+				B911CBBF1BC264E0003FF997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B911CBC01BC264E0003FF997 /* Build configuration list for PBXNativeTarget "CinderellaPassTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B911CBC11BC264E0003FF997 /* Debug */,
+				B911CBC21BC264E0003FF997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B911CBC31BC264E0003FF997 /* Build configuration list for PBXNativeTarget "CinderellaPassUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B911CBC41BC264E0003FF997 /* Debug */,
+				B911CBC51BC264E0003FF997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B911CB881BC264E0003FF997 /* Project object */;
+}
