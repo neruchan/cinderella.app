@@ -5,7 +5,7 @@
 //  Created by Nelson Widjaya on 10/29/15.
 //  Copyright © 2015 Starty International. All rights reserved.
 //
-#define TITLE_FOR_VIEW1 @"PickUP!"
+#define TITLE_FOR_VIEW1 @"PickUP!a"
 #define CATEGORY_FOR_VIEW1 1
 #define TITLE_FOR_VIEW2 @"Beauty"
 #define CATEGORY_FOR_VIEW2 2
